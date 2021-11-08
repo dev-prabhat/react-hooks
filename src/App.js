@@ -1,9 +1,10 @@
 import React from 'react'
-import Hooks from './React-Hooks/Hooks';
+//import Hooks from './React-Hooks/Hooks';
+import UseReducer from './React-Hooks/UseReducer'
 
 function App() {
   return (
-    <Hooks />
+    <UseReducer />
   );
 }
 
