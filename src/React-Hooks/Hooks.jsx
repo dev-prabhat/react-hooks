@@ -1,8 +1,12 @@
-import React ,{useState}from 'react'
+import React ,{useState , useEffect}from 'react'
 import './style.css'
 
-const UseState = () =>{
+const Hooks = () =>{
     const [data,setData] = useState(0)
+
+    useEffect(()=>{
+        document.title=`Chats(${data})`
+    })
 
     return(
      <div>
@@ -27,4 +31,4 @@ const UseState = () =>{
     )
 }
 
-export default UseState;
+export default Hooks;

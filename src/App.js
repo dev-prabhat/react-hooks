@@ -1,9 +1,9 @@
 import React from 'react'
-import UseState from './Hooks/useState';
+import Hooks from './React-Hooks/Hooks';
 
 function App() {
   return (
-    <UseState />
+    <Hooks />
   );
 }
 
